@@ -1,6 +1,6 @@
 package io.tntra.java_designpatterns.creationalPattern.FactoryPattern;
 
-public abstract class AbstractDocuFectory {
+public class AbstractDocuFectory {
   protected static documents CreateDoc(String varient){
      switch (varient){
        case "Zip":
